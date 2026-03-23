@@ -21,9 +21,9 @@ const Services = () => {
   };
 
   const homePackages = [
-    { speed: "5", price: "1,500", benefits: ["Ideal for 1-2 devices", "Basic web browsing", "Social media & light video"] },
-    { speed: "10", price: "1,800", benefits: ["Ideal for 2-4 devices", "Seamless HD streaming", "Clear video conferencing"] },
-    { speed: "15", price: "2,000", isPopular: true, benefits: ["Ideal for 4-6 devices", "4K Video streaming", "Smart TV & console ready"] },
+    { speed: "8", price: "1,500", benefits: ["Ideal for 1-5 devices", "Basic web browsing", "Social media & light video"] },
+    { speed: "10", price: "1,800", benefits: ["Ideal for 2-6 devices", "Seamless HD streaming", "Clear video conferencing"] },
+    { speed: "15", price: "2,000", isPopular: true, benefits: ["Ideal for 4-8 devices", "4K Video streaming", "Smart TV & console ready"] },
     { speed: "20", price: "2,500", benefits: ["Heavy family usage", "Lag-free online gaming", "Lightning-fast downloads"] },
   ];
 
