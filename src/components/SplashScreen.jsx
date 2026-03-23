@@ -66,7 +66,7 @@ const SplashScreen = () => {
 
         {/* Slogan */}
         <p className="text-slate-400 text-sm md:text-base font-bold tracking-[0.2em] mb-12 uppercase">
-          Empowering Kenya
+          Seamless. Zero-delay. Unstoppable.
         </p>
 
         {/* 3-Dot Loading Animation */}
