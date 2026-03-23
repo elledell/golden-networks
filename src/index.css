@@ -24,3 +24,8 @@
 .animate-bounce-slow {
   animation: bounce-slow 3s infinite ease-in-out;
 }
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
