@@ -5,7 +5,7 @@ import nandiMap from '../assets/nandi-map.png'; // Make sure this matches your f
 const CoverageSection = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [showDropdown, setShowDropdown] = useState(false);
-  const [searchResult, setSearchResult] = useState(null); // To store the final "Success/Fail" message
+  const [searchResult, setSearchResult] = useState(null);
 
   // 1. EXTENDED DATABASE OF LOCATIONS
   // This powers the search bar suggestions
@@ -17,6 +17,15 @@ const CoverageSection = () => {
     { name: "Kapsabet Boys Area", status: "Live" },
     { name: "Namgoi", status: "Live" },
     { name: "Kamobo", status: "Live" },
+    { name: "Samoo", status: "Live" },
+    { name: "Kapsasur", status: "Live" },
+    { name: "Kapkangani", status: "Live" },
+    { name: "Chepsonoi", status: "Live" },
+    { name: "Sirwa yala", status: "Live" },
+    { name: "Lessos", status: "Live" },
+    { name: "Himaki", status: "Live" },
+    { name: "Kaptumo", status: "Live" },
+    { name: "Arwos", status: "Live" },
     { name: "Nandi Hills", status: "Expanding" },
     { name: "Mosoriot", status: "Coming Soon" },
     { name: "Kiboswa", status: "Coming Soon" },
